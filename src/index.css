@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800&display=swap');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Saira', sans-serif;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: #222222;
+  height: 100vh;
+}
+
+.App {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr; 
+}
+
+
+@media (max-width: 1366px) {
+  .App {
+    display: none;
+  }
+}
